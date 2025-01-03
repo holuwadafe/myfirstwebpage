@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: rgb(185, 167, 145);
+    /* font-family: "Dancing Script", serif; */
+
+}
+.header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Barlow Condensed", serif;
+}
+ .header ul {
+     display: flex;
+     /* flex-direction: row; */
+    justify-content: space-between;
+    /* margin-left: 10px; */
+    align-items: center;
+
+    
+} 
+.header ul li {
+    text-decoration: none;
+    padding-left: 20px;
+    list-style: none;
+    
+}
+.left-side img {
+    width: 250px;
+    height: 250px;
+}
+.main-body {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 100px;
+    font-family: "Dancing Script", serif;
+
+}
+.right-side button {
+    padding: 20px;
+    background-color: rgb(104, 104, 227);
+    border-radius: 50px;
+    border: 1px white solid;
+    color: #fff;
+}
+ .footer {
+    background-color: rgb(45, 21, 21);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.second-div {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+}
+.footer div p {
+    list-style: none;
+    text-decoration: none;
+}
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+.footer h1 {
+    text-align: center;
+}
+.last-div {
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 10px;
+}
+img {
+    border-radius: 50%;
+}
+.main-body {
+    display: flex;
+}
+.contact-body {
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+@media (max-width: 412px) {
+    .main-body {
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-body {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: palevioletred;
+    }
+    .about-body {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(103, 128, 128);
+    }
+    .right-side img {
+        visibility: hidden;
+    }
+    }
+    
+
+
+
